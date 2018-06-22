@@ -1,9 +1,11 @@
 # Write your code here.
-def line(deli)
-if(deli.size == 0)
+def line(array)
+if(array.size == 0)
   puts "The line is currently empty."
 else
   puts "The line is currently: "
-  deli.each_with_index {|name, index| puts "#{index+1}. #{name} "}
+  array.each_with_index {|name, index| puts "#{index+1}. #{name} "}
 end
 end
+
+def take_a_number()
